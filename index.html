@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Drum Kit</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="shortcut icon" href="#">
+  </head>
+  
+  <body>
+    <section class="section">
+        <div class="column is-size-1 has-text-centered">
+          JavaScript Drum Kit
+        </div>        
+
+        <div class="columns is-centered">
+
+          <div data-key="65" class="key mt-5">            
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/clap.png">
+                  </span>
+                </button>  
+                <p class="title is-5">A</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="83" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/hihat.png">
+                  </span>
+                </button>  
+                <p class="title is-5">S</p>                
+              </div>
+            </div>
+          </div>  
+          
+          <div data-key="68" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/kick.png">
+                  </span>
+                </button>  
+                <p class="title is-5">D</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="70" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/openhat.png">
+                  </span>
+                </button>  
+                <p class="title is-5">F</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="71" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/boom.png">
+                  </span>
+                </button>  
+                <p class="title is-5">G</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="72" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/ride.png">
+                  </span>
+                </button>  
+                <p class="title is-5">H</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="74" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/snare.png">
+                  </span>
+                </button>  
+                <p class="title is-5">J</p>                
+              </div>
+            </div>
+          </div>  
+          
+          <div data-key="75" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/tom.png">
+                  </span>
+                </button>  
+                <p class="title is-5">K</p>                
+              </div>
+            </div>
+          </div>  
+
+          <div data-key="76" class="key">
+            <div class="column is-narrow">
+              <div class="box" style="width: 100px;">
+                <button class="button is-large">
+                  <span class="icon is-medium">
+                    <img src="./icons/tink.png">
+                  </span>
+                </button>  
+                <p class="title is-5">L</p>                
+              </div>
+            </div>
+          </div>  
+
+        </div>
+      
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+    </section>
+
+    <footer class="footer has-text-centered">
+      <div class="container">
+         <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
+            <p>
+                <a href="https://javascript30.com" target="_blank">A JavaScript30 Challenge</a>
+            </p>
+            <p style="margin-top: 1rem;">
+              <small>
+                Handcoded with 
+                  <span class="icon has-text-danger">
+                    <i class="fas fa-heart"></i>
+                  </span>                
+                by <a href="https://www.code.sydney" target="_blank">Code.Sydney</a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="lib/main.js"></script>
+  </body>
+
+</html>
